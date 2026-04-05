@@ -1,7 +1,7 @@
 // === CONFIG ===
 const CLIENT_ID = "1490180678036226139";
 const REDIRECT_URI = "https://ohartley627-gif.github.io/insurance-app/";
-const BOT_API_URL = "http://fi11.bot-hosting.net:20376/submit-application";
+const BOT_API_URL = "https://oweninsurance.ohartley627.workers.dev/submit-application";
 
 // === GET TOKEN FROM URL ===
 const urlParams = new URLSearchParams(window.location.search);
