@@ -1,6 +1,6 @@
 // === CONFIG ===
-const CLIENT_ID = "YOUR_DISCORD_CLIENT_ID";
-const REDIRECT_URI = "https://yourwebsite.com/application.html";
+const CLIENT_ID = "1490180678036226139";
+const REDIRECT_URI = "https://ohartley627-gif.github.io/insurance-app/";
 const BOT_API_URL = "https://your-bot-server.com/submit-application";
 
 // === GET TOKEN FROM URL ===
