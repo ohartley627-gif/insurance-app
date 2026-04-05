@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Application Form</h1>
+
+        <!-- Discord Login Section -->
+        <div id="login-section">
+            <p>Please log in with Discord to continue.</p>
+            <a id="login-btn" href="#">Login with Discord</a>
+        </div>
+
+        <!-- Application Form -->
+        <form id="app-form" class="hidden">
+            <h2>Your Application</h2>
+
+            <label>1. Why do you want to join?</label>
+            <textarea id="q1" required></textarea>
+
+            <label>2. Have you read the info document?</label>
+            <select id="q2" required>
+                <option value="">Select one</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
